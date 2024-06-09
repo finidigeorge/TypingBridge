@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypingBridge", ".\TypingBridge\TypingBridge.csproj", "{E1230B89-FEDD-4269-B582-54045B97D0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingHandler", ".\TypingHandler\TypingHandler.csproj", "{42818AC6-AEE0-442B-8805-FC387C3BDD74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1230B89-FEDD-4269-B582-54045B97D0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1230B89-FEDD-4269-B582-54045B97D0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1230B89-FEDD-4269-B582-54045B97D0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1230B89-FEDD-4269-B582-54045B97D0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42818AC6-AEE0-442B-8805-FC387C3BDD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42818AC6-AEE0-442B-8805-FC387C3BDD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42818AC6-AEE0-442B-8805-FC387C3BDD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42818AC6-AEE0-442B-8805-FC387C3BDD74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0411D3-2308-41AD-B159-7F222D8BF627}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="InputSimulatorPlus.NetStandard" Version="1.0.8" />
+		<PackageReference Include="TextCopy" Version="6.2.1" />
+	</ItemGroup>
+</Project>
