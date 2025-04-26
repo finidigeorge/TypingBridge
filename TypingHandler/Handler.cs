@@ -4,6 +4,7 @@ using System;
 using System.Threading.Tasks;
 using WindowsInput;
 using System.Security.Cryptography.X509Certificates;
+using System.Threading;
 
 namespace TypingHandler
 {
@@ -48,11 +49,16 @@ namespace TypingHandler
         {
             foreach (string line in lines)
             {
-                if (!string.IsNullOrEmpty(line))
-                    input.Keyboard.TextEntry(line);
+                foreach (var singleChar in line.ToCharArray())
+                {
+                    input.Keyboard.TextEntry(singleChar);
+                    if (appConfig.LatencyInMs > 0)
+                    {
+                        Thread.Sleep(appConfig.LatencyInMs);
+                    }
+                }
                 input.Keyboard.KeyPress(WindowsInput.Native.VirtualKeyCode.RETURN);
             }
-
             IsFileValid = false;
             Console.WriteLine("Completed.");
         }

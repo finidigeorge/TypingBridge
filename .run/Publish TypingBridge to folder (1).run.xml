@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish TypingBridge to folder (1)" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" include_all_content_for_self_extract="true" include_native_libs_for_self_extract="true" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/TypingBridge/bin/Release/publish/win-x64" target_framework="net9.0-windows" trim_unused_assemblies="true" uuid_high="-2223921103676554647" uuid_low="-5367635428178931529" />
+    <method v="2" />
+  </configuration>
+</component>

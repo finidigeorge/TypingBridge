@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0</TargetFrameworks>
+		<TargetFramework>net9.0</TargetFramework>
+		<LangVersion>10</LangVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="InputSimulatorPlus.NetStandard" Version="1.0.8" />
